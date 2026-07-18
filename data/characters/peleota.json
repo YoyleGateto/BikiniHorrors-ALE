@@ -1,0 +1,221 @@
+{
+	"healthbar_colors": [
+		43,
+		111,
+		224
+	],
+	"position": [
+		0,
+		0
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		0,
+		-300
+	],
+	"image": "characters/peleota",
+	"sing_duration": "6.1",
+	"healthicon": "icon-bubbleman",
+	"flip_x": true,
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "rest",
+			"indices": []
+		},
+		{
+			"offsets": [
+				23,
+				-9
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "bubblehit1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				16,
+				-8
+			],
+			"loop": false,
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "bubblehit2",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-228,
+				-47
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "bubbleblock2",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-329.2,
+				-44.2
+			],
+			"loop": false,
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "bubbleblock1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-253,
+				-35
+			],
+			"loop": false,
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "bobhit2",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-356,
+				-40
+			],
+			"loop": false,
+			"anim": "singRIGHTmiss-alt",
+			"fps": 24,
+			"name": "bobhit1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				162,
+				-47
+			],
+			"loop": false,
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "bobblock2",
+			"indices": []
+		},
+		{
+			"offsets": [
+				167,
+				-47
+			],
+			"loop": false,
+			"anim": "singLEFTmiss-alt",
+			"fps": 24,
+			"name": "bobblock1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				142,
+				437
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "bubbleuppercut",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-290,
+				275
+			],
+			"loop": false,
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "bobuppercut",
+			"indices": []
+		},
+		{
+			"offsets": [
+				40,
+				-149
+			],
+			"loop": false,
+			"anim": "bubbleDODGE",
+			"fps": 24,
+			"name": "bubbledodge",
+			"indices": []
+		},
+		{
+			"offsets": [
+				142,
+				437
+			],
+			"loop": false,
+			"anim": "bubbleHOOK",
+			"fps": 24,
+			"name": "bubbleuppercut",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-125,
+				-55
+			],
+			"loop": false,
+			"anim": "bobDODGE",
+			"fps": 24,
+			"name": "bobdodge",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-290,
+				275
+			],
+			"loop": false,
+			"anim": "bobHOOK",
+			"fps": 24,
+			"name": "bobuppercut",
+			"indices": []
+		},
+		{
+			"offsets": [
+				40,
+				-149
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "bubbledodge",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-125,
+				-55
+			],
+			"loop": false,
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "bobdodge",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-125,
+				-55
+			],
+			"loop": false,
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "bobdodge",
+			"indices": []
+		}
+	]
+}

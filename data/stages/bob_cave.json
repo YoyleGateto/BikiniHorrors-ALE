@@ -1,0 +1,755 @@
+{
+	"spritesConfig": {
+		"sprites": [
+			{
+				"images": [
+					"cave"
+				],
+				"type": "image",
+				"id": "cave",
+				"animations": [],
+				"properties": {
+					"x": -2824,
+					"scale": {
+						"x": 0.7,
+						"y": 0.7
+					},
+					"y": -3320
+				}
+			},
+			{
+				"images": [
+					"emerald"
+				],
+				"type": "image",
+				"id": "emerald",
+				"animations": [],
+				"properties": {
+					"x": -2733,
+					"scale": {
+						"x": 0.7,
+						"y": 0.7
+					},
+					"scrollFactor": {
+						"x": 1.05
+					},
+					"y": -3343
+				}
+			},
+			{
+				"images": [
+					"no_se_xd"
+				],
+				"type": "image",
+				"id": "floor",
+				"animations": [],
+				"properties": {
+					"x": -2826,
+					"scale": {
+						"x": 0.7,
+						"y": 0.7
+					},
+					"scrollFactor": {
+						"x": 1.1
+					},
+					"y": -3321
+				}
+			},
+			{
+				"images": [
+					"patrisio"
+				],
+				"type": "image",
+				"id": "patrisio",
+				"animations": [],
+				"properties": {
+					"x": 1114,
+					"scale": {
+						"x": 0.7,
+						"y": 0.7
+					},
+					"y": -36
+				}
+			},
+			{
+				"images": [
+					"space/0"
+				],
+				"type": "image",
+				"id": "spaceBg1",
+				"animations": [],
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0.9
+					},
+					"y": -3300,
+					"scale": {
+						"x": 3,
+						"y": 3
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/0"
+				],
+				"type": "image",
+				"id": "spaceBg2",
+				"animations": [],
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0.9
+					},
+					"y": -3300,
+					"scale": {
+						"x": 3,
+						"y": 3
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/1"
+				],
+				"type": "image",
+				"id": "stars1",
+				"animations": [],
+				"properties": {
+					"x": -1000,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.25,
+						"y": 1.25
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/2"
+				],
+				"type": "image",
+				"id": "stars2",
+				"animations": [],
+				"properties": {
+					"x": -1000,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.25,
+						"y": 1.25
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/3"
+				],
+				"type": "image",
+				"id": "stars3",
+				"animations": [],
+				"properties": {
+					"x": -1000,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.25,
+						"y": 1.25
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/1"
+				],
+				"type": "image",
+				"id": "stars7",
+				"animations": [],
+				"properties": {
+					"x": 600,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.25,
+						"y": 1.25
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/2"
+				],
+				"type": "image",
+				"id": "stars8",
+				"animations": [],
+				"properties": {
+					"x": 600,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.25,
+						"y": 1.25
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/3"
+				],
+				"type": "image",
+				"id": "stars9",
+				"animations": [],
+				"properties": {
+					"x": 600,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.25,
+						"y": 1.25
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/4"
+				],
+				"type": "image",
+				"id": "galaxy1",
+				"animations": [],
+				"properties": {
+					"x": -300,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.5,
+						"y": 1.5
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/5"
+				],
+				"type": "image",
+				"id": "galaxy2",
+				"animations": [],
+				"properties": {
+					"x": -300,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.5,
+						"y": 1.5
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/1"
+				],
+				"type": "image",
+				"id": "stars4",
+				"animations": [],
+				"properties": {
+					"x": -1000,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.25,
+						"y": 1.25
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/2"
+				],
+				"type": "image",
+				"id": "stars5",
+				"animations": [],
+				"properties": {
+					"x": -1000,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.25,
+						"y": 1.25
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/3"
+				],
+				"type": "image",
+				"id": "stars6",
+				"animations": [],
+				"properties": {
+					"x": -1000,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.25,
+						"y": 1.25
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/1"
+				],
+				"type": "image",
+				"id": "stars10",
+				"animations": [],
+				"properties": {
+					"x": 600,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.25,
+						"y": 1.25
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/2"
+				],
+				"type": "image",
+				"id": "stars11",
+				"animations": [],
+				"properties": {
+					"x": 600,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.25,
+						"y": 1.25
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/3"
+				],
+				"type": "image",
+				"id": "stars12",
+				"animations": [],
+				"properties": {
+					"x": 600,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.25,
+						"y": 1.25
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/4"
+				],
+				"type": "image",
+				"id": "galaxy3",
+				"animations": [],
+				"properties": {
+					"x": -300,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.5,
+						"y": 1.5
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/5"
+				],
+				"type": "image",
+				"id": "galaxy4",
+				"animations": [],
+				"properties": {
+					"x": -300,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.5,
+						"y": 1.5
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/7"
+				],
+				"type": "image",
+				"id": "luno",
+				"animations": [],
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -5320,
+					"scale": {
+						"x": 1.25,
+						"y": 1.25
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"foreground"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"id": "foreground",
+				"animations": [],
+				"properties": {
+					"x": -3004,
+					"scale": {
+						"x": 0.7,
+						"y": 0.7
+					},
+					"scrollFactor": {
+						"x": 1.4,
+						"y": 1.4
+					},
+					"y": -3388
+				}
+			},
+			{
+				"width": 1280,
+				"type": "box",
+				"addMethod": "add",
+				"id": "white",
+				"animations": [],
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0
+					},
+					"alpha": 0,
+					"y": 0
+				},
+				"height": 720
+			},
+			{
+				"images": [
+					"renders/intro"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"id": "introPanel",
+				"animations": [],
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 1,
+						"y": 1
+					},
+					"antialiasing": true,
+					"y": 0,
+					"scale": {
+						"x": 1,
+						"y": 1
+					}
+				}
+			},
+			{
+				"images": [
+					"renders/keep-up"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"id": "keepupPanel",
+				"animations": [],
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 1,
+						"y": 1
+					},
+					"antialiasing": true,
+					"y": 0,
+					"scale": {
+						"x": 1,
+						"y": 1
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"renders/laugh"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"id": "laughPanel",
+				"animations": [],
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 1,
+						"y": 1
+					},
+					"antialiasing": true,
+					"y": 0,
+					"scale": {
+						"x": 1,
+						"y": 1
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"renders/bob-transform"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"id": "bobTransform",
+				"animations": [],
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 1,
+						"y": 1
+					},
+					"antialiasing": true,
+					"y": 0,
+					"scale": {
+						"x": 1,
+						"y": 1
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"renders/bf-transform"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"id": "bfTransform",
+				"animations": [],
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 1,
+						"y": 1
+					},
+					"antialiasing": true,
+					"y": 0,
+					"scale": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"renders/tartar-sauce"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"id": "tartarSauce",
+				"animations": [],
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 1,
+						"y": 1
+					},
+					"antialiasing": true,
+					"y": 0,
+					"scale": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/6"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"id": "shine1",
+				"animations": [],
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -3320,
+					"scale": {
+						"x": 1.5,
+						"y": 1.5
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"images": [
+					"space/6"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"id": "shine2",
+				"animations": [],
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 0.9,
+						"y": 0.9
+					},
+					"y": -3320,
+					"scale": {
+						"x": 1.5,
+						"y": 1.5
+					},
+					"alpha": 0
+				}
+			},
+			{
+				"width": 1280,
+				"type": "box",
+				"addMethod": "add",
+				"id": "darkLights",
+				"animations": [],
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0
+					},
+					"alpha": 0,
+					"y": 0
+				},
+				"height": 720
+			},
+			{
+				"images": [
+					"trans"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"id": "transition",
+				"animations": [],
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0
+					},
+					"antialiasing": true,
+					"y": 0,
+					"scale": {
+						"x": 4,
+						"y": 1.5
+					},
+					"alpha": 0
+				}
+			}
+		],
+		"directory": "bob_cave"
+	},
+	"charactersOffset": {
+		"type": {
+			"extra": {
+				"x": 10000,
+				"y": 10000
+			},
+			"opponent": {
+				"x": -900,
+				"y": -1300
+			},
+			"player": {
+				"x": 200,
+				"y": -650
+			}
+		}
+	},
+	"zoom": 0.6,
+	"speed": 1,
+	"hud": "default",
+	"format": "ale-stage-v0.1"
+}

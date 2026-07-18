@@ -1,0 +1,45 @@
+{
+	"healthbar_colors": [
+		43,
+		111,
+		224
+	],
+	"position": [
+		0,
+		0
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		0,
+		0
+	],
+	"image": "characters/bubblemandeathanim",
+	"sing_duration": "6.1",
+	"healthicon": "icon-bubbleman",
+	"flip_x": true,
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "death",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-495,
+				366
+			],
+			"loop": false,
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "daccept",
+			"indices": []
+		}
+	]
+}

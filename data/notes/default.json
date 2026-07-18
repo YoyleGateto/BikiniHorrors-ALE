@@ -1,0 +1,86 @@
+{
+    "images": [
+        "default"
+    ],
+    "type": "sheet",
+    "animations": [
+        {
+            "name": "arrowLEFT"
+        },
+        {
+            "name": "left confirm"
+        },
+        {
+            "name": "left press"
+        },
+        {
+            "name": "arrowDOWN"
+        },
+        {
+            "name": "down confirm"
+        },
+        {
+            "name": "down press"
+        },
+        {
+            "name": "arrowUP"
+        },
+        {
+            "name": "up confirm"
+        },
+        {
+            "name": "up press"
+        },
+        {
+            "name": "arrowRIGHT"
+        },
+        {
+            "name": "right confirm"
+        },
+        {
+            "name": "right press"
+        },
+        {
+            "name": "purple"
+        },
+        {
+            "name": "purple hold piece"
+        },
+        {
+            "name": "pruple end hold"
+        },
+        {
+            "name": "blue"
+        },
+        {
+            "name": "blue hold piece"
+        },
+        {
+            "name": "blue hold end"
+        },
+        {
+            "name": "green"
+        },
+        {
+            "name": "green hold piece"
+        },
+        {
+            "name": "green hold end"
+        },
+        {
+            "name": "red"
+        },
+        {
+            "name": "red hold piece"
+        },
+        {
+            "name": "red hold end"
+        }
+    ],
+    "properties": {
+        "scale": {
+            "x": .7,
+            "y": .7
+        }
+    }
+}

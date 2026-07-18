@@ -1,0 +1,122 @@
+{
+	"healthbar_colors": [
+		43,
+		111,
+		224
+	],
+	"position": [
+		0,
+		-350
+	],
+	"no_antialiasing": false,
+	"scale": 0.9,
+	"camera_position": [
+		-200,
+		25
+	],
+	"image": "characters/bubblemangrandoote",
+	"sing_duration": "6.1",
+	"healthicon": "icon-bubbleman",
+	"flip_x": true,
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-2
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				35,
+				-11
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				292,
+				-271
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-174,
+				-80
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-71,
+				-200
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-87,
+				44
+			],
+			"loop": false,
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "miss up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				603,
+				-609
+			],
+			"loop": false,
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "miss left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-205,
+				-144
+			],
+			"loop": false,
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "miss right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				99,
+				-668
+			],
+			"loop": false,
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "miss down",
+			"indices": []
+		}
+	]
+}
