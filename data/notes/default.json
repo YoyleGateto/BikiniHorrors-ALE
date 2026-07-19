@@ -41,7 +41,7 @@
             "name": "right press"
         },
         {
-            "name": "purple"
+            "name": "_purple"
         },
         {
             "name": "purple hold piece"
@@ -50,7 +50,7 @@
             "name": "pruple end hold"
         },
         {
-            "name": "blue"
+            "name": "_blue"
         },
         {
             "name": "blue hold piece"
@@ -59,7 +59,7 @@
             "name": "blue hold end"
         },
         {
-            "name": "green"
+            "name": "_green"
         },
         {
             "name": "green hold piece"
@@ -68,7 +68,7 @@
             "name": "green hold end"
         },
         {
-            "name": "red"
+            "name": "_red"
         },
         {
             "name": "red hold piece"

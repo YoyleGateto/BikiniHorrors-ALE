@@ -4,7 +4,7 @@
 	"strums": "default",
 	"config": [
 		{
-			"note": "purple",
+			"note": "_purple",
 			"hit": "left confirm",
 			"end": "pruple end hold",
 			"press": "left press",
@@ -27,7 +27,7 @@
 			]
 		},
 		{
-			"note": "blue",
+			"note": "_blue",
 			"hit": "down confirm",
 			"end": "blue hold end",
 			"press": "down press",
@@ -50,7 +50,7 @@
 			]
 		},
 		{
-			"note": "green",
+			"note": "_green",
 			"hit": "up confirm",
 			"end": "green hold end",
 			"press": "up press",
@@ -73,7 +73,7 @@
 			]
 		},
 		{
-			"note": "red",
+			"note": "_red",
 			"hit": "right confirm",
 			"end": "red hold end",
 			"press": "right press",

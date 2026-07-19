@@ -6,7 +6,7 @@
 	<SubTexture name="arrowLEFT0000" x="154" y="4" width="144" height="157"/>
 	<SubTexture name="arrowRIGHT0000" x="302" y="4" width="145" height="157"/>
 	<SubTexture name="arrowUP0000" x="451" y="4" width="146" height="157"/>
-	<SubTexture name="blue0000" x="601" y="4" width="145" height="144"/>
+	<SubTexture name="_blue0000" x="601" y="4" width="145" height="144"/>
 	<SubTexture name="blue hold end0000" x="750" y="4" width="46" height="65"/>
 	<SubTexture name="blue hold piece0000" x="800" y="4" width="46" height="58"/>
 	<SubTexture name="down confirm0000" x="850" y="4" width="159" height="173"/>
@@ -17,7 +17,7 @@
 	<SubTexture name="down press0001" x="161" y="181" width="134" height="145" frameX="-6" frameY="-7" frameWidth="146" frameHeight="159"/>
 	<SubTexture name="down press0002" x="299" y="181" width="146" height="159"/>
 	<SubTexture name="down press0003" x="299" y="181" width="146" height="159"/>
-	<SubTexture name="green0000" x="449" y="181" width="145" height="144"/>
+	<SubTexture name="_green0000" x="449" y="181" width="145" height="144"/>
 	<SubTexture name="green hold end0000" x="598" y="181" width="46" height="65"/>
 	<SubTexture name="green hold piece0000" x="648" y="181" width="46" height="58"/>
 	<SubTexture name="left confirm0000" x="698" y="181" width="160" height="173"/>
@@ -29,9 +29,9 @@
 	<SubTexture name="left press0002" x="142" y="358" width="144" height="157"/>
 	<SubTexture name="left press0003" x="142" y="358" width="144" height="157"/>
 	<SubTexture name="pruple end hold0000" x="290" y="358" width="46" height="65"/>
-	<SubTexture name="purple0000" x="340" y="358" width="144" height="145"/>
+	<SubTexture name="_purple0000" x="340" y="358" width="144" height="145"/>
 	<SubTexture name="purple hold piece0000" x="488" y="358" width="46" height="58"/>
-	<SubTexture name="red0000" x="538" y="358" width="144" height="145"/>
+	<SubTexture name="_red0000" x="538" y="358" width="144" height="145"/>
 	<SubTexture name="red hold end0000" x="686" y="358" width="46" height="65"/>
 	<SubTexture name="red hold piece0000" x="736" y="358" width="46" height="58"/>
 	<SubTexture name="right confirm0000" x="786" y="358" width="160" height="173"/>

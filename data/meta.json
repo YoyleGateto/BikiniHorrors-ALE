@@ -1,6 +1,6 @@
 {
-    "title": "Powerscaling [Bikini Horrors]",
-    "titleState": "FreeplayState",
+    "title": "Bikini Horrors [ALE Psych Porter]",
+    "mainMenuState": "TitleState",
     "developerMode": true,
     "scriptsHotReloading": true
 }
