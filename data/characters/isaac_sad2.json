@@ -1,0 +1,89 @@
+{
+	"healthbar_colors": [
+		65,
+		160,
+		255
+	],
+	"position": [
+		0,
+		0
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		-647,
+		-171
+	],
+	"image": "characters/sirope/voidisaac2",
+	"sing_duration": "6.1",
+	"healthicon": "isaacicon1",
+	"flip_x": true,
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"anim": "idle",
+			"fps": 24,
+			"name": "coloridle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				3,
+				56
+			],
+			"loop": false,
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "colorup",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-31,
+				-3
+			],
+			"loop": false,
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "colorright",
+			"indices": []
+		},
+		{
+			"offsets": [
+				83,
+				3
+			],
+			"loop": false,
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "colorleft",
+			"indices": []
+		},
+		{
+			"offsets": [
+				4,
+				-131
+			],
+			"loop": false,
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "colordown",
+			"indices": []
+		},
+		{
+			"offsets": [
+				560,
+				1792
+			],
+			"loop": false,
+			"anim": "wings",
+			"fps": 24,
+			"name": "wings",
+			"indices": []
+		}
+	]
+}

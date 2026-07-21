@@ -1,4 +1,4 @@
-/*import Formatter;
+import Formatter;
 import haxe.io.Path;
 import sys.io.File;
 
@@ -20,4 +20,4 @@ for (file in Paths.readDirectory("data/stages", "unique"))
 		var data = Formatter.getStageData(Path.withoutExtension(file));
 		File.saveContent(Paths.mods + "/" + Paths.mod + "/data/stages/" + Path.withoutExtension(file) + ".json", Json.stringify(data));
 	}
-}*/
+}

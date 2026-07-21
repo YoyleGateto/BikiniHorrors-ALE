@@ -1,0 +1,177 @@
+{
+	"healthbar_colors": [
+		237,
+		255,
+		205
+	],
+	"position": [
+		-22,
+		5
+	],
+	"no_antialiasing": true,
+	"scale": 1,
+	"camera_position": [
+		60,
+		77
+	],
+	"image": "characters/sirope/pixelisaac",
+	"sing_duration": 4,
+	"healthicon": "nothing",
+	"flip_x": true,
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				2,
+				0
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				1,
+				1
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				2,
+				1
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				2,
+				0
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-24,
+				0
+			],
+			"loop": false,
+			"anim": "moveleft",
+			"fps": 24,
+			"name": "moveleft",
+			"indices": []
+		},
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"loop": false,
+			"anim": "moveright",
+			"fps": 24,
+			"name": "moveright",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "moveup",
+			"fps": 24,
+			"name": "moveup",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "movedown",
+			"fps": 24,
+			"name": "movedown",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-224,
+				30
+			],
+			"loop": false,
+			"anim": "hurt",
+			"fps": 24,
+			"name": "daño",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-150,
+				-10
+			],
+			"loop": false,
+			"anim": "missLEFT",
+			"fps": 24,
+			"name": "MISSleft",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-150,
+				-10
+			],
+			"loop": false,
+			"anim": "missUP",
+			"fps": 24,
+			"name": "MISSup",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-165,
+				-5
+			],
+			"loop": false,
+			"anim": "missRIGHT",
+			"fps": 24,
+			"name": "MISSright",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-55,
+				0
+			],
+			"loop": false,
+			"anim": "missDOWN",
+			"fps": 24,
+			"name": "MISSdown",
+			"indices": []
+		}
+	]
+}

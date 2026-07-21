@@ -1,0 +1,89 @@
+{
+    "directory":"default",
+    "ratings":[
+        {
+            "id":"sick",
+            "score":350,
+            "accuracy":100,
+            "time":45,
+            "splash":true
+        },
+        {
+            "id":"good",
+            "score":200,
+            "accuracy":66,
+            "time":90,
+            "splash":false
+        },
+        {
+            "id":"bad",
+            "score":100,
+            "accuracy":33,
+            "time":135,
+            "splash":false
+        },
+        {
+            "id":"shit",
+            "score":50,
+            "accuracy":0,
+            "time":180,
+            "splash":false
+        }
+    ],
+    "combo":{
+        "properties":{
+            "x":640,
+            "y":550
+        },
+        "rating":{
+            "ease":"circInOut",
+            "duration":0.75,
+            "start":{
+                "x":0,
+                "y":0,
+                "alpha":1,
+                "scale": {
+                	"x": 0.5,
+                	"y": 0.5
+                }
+            },
+            "end":{
+                "x":0,
+                "y":0,
+                "alpha":0,
+                "scale": {
+                	"x": 0.1,
+                	"y": 0.1
+                }
+            },
+            "properties":{
+                "scale":{
+                    "x":0.5,
+                    "y":0.5
+                }
+            }
+        },
+        "number":{
+            "spacing":35,
+            "ease":"circInOut",
+            "duration":0.75,
+            "start":{
+                "x":0,
+                "y":0,
+                "alpha":0
+            },
+            "end":{
+                "x":0,
+                "y":0,
+                "alpha":0
+            },
+            "properties":{
+                "scale":{
+                    "x":0.4,
+                    "y":0.4
+                }
+            }
+        }
+    }
+    "format": "ale-hud-v0.1"
+}

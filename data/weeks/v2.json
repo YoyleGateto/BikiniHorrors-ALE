@@ -1,0 +1,20 @@
+{
+	"songs": [
+		{
+			"icon": "icon-fysd",
+			"name": "For You Someday",
+			"color": "#0044AA"
+		}
+	],
+	"background": "stage",
+	"image": "week1",
+	"phrase": "Daddy Dearest",
+	"locked": false,
+	"hideFreeplay": false,
+	"hideStoryMode": true,
+	"previousWeek": "tutorial",
+	"difficulties": [
+		"hard"
+	],
+	"format": "ale-week-v0.1"
+}

@@ -5,6 +5,11 @@
 			"name": "Powerscaling",
 			"color": "#0044AA"
 		}
+		{
+			"icon": "crisbobicon1",
+			"name": "STEAMUNLOCKED",
+			"color": "#502500"
+		}
 	],
 	"background": "stage",
 	"image": "week1",

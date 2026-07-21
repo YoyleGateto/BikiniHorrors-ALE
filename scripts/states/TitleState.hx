@@ -42,9 +42,8 @@ function onCreate() {
     menuActive = false;
     transitioning = false;
 
-    if (FlxG.sound.music == null || !FlxG.sound.music.playing) {
-        FlxG.sound.playMusic(Paths.music('freakyMenu'), 1.0, true);
-    }
+    if (Conductor.music == null || !Conductor.music.playing)
+        Conductor.play(Paths.music('freakyMenu'), CoolVars.meta.bpm, CoolVars.meta.stepsPerBeat, CoolVars.meta.beatsPerSection);
 
     bgCam.bgColor = 0;
     gameCam.bgColor = 0;
@@ -53,11 +52,11 @@ function onCreate() {
 
     if (ClientPrefs.data.shaders) {
         water = new FXShader("waterDistortion");
-        water.set("strength", 0.5);
+        water.setFloat("strength", 0.5);
         bgCam.setShaders([water]);
 
         water2 = new FXShader("waterDistortion");
-        water2.set("strength", 0.1);
+        water2.setFloat("strength", 0.1);
         gameCam.setShaders([water2]);
     }
 
@@ -193,10 +192,10 @@ function onUpdate(elapsed:Float) {
         var offsetY = Math.cos(t + shakeSeedY) * strength * FlxG.height;
 
         // SAME OFFSET → BOTH CAMERAS
-        gameCam.x = offsetX;
-        gameCam.y = offsetY;
-        bgCam.x = offsetX;
-        bgCam.y = offsetY;
+        gameCam.scroll.x = -offsetX;
+        gameCam.scroll.y = -offsetY;
+        bgCam.scroll.x = -offsetX;
+        bgCam.scroll.y = -offsetY;
 
         if (shake_time <= 0)
         {
@@ -208,8 +207,10 @@ function onUpdate(elapsed:Float) {
     }
 
 	tottalTimer += elapsed;
-    water?.set("time", tottalTimer);
-    water2?.set("time", tottalTimer);
+	if (water != null)
+    	water.setFloat("time", tottalTimer);
+    if (water2 != null)
+    	water2.setFloat("time", tottalTimer);
 
     if (FlxG.keys.justPressed.SEVEN) {
         persistentUpdate = false;

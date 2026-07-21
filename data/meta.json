@@ -1,5 +1,8 @@
 {
     "title": "Bikini Horrors [ALE Psych Porter]",
+    "states": {
+  	  "mainMenuState": "TitleState",
+    },
     "mainMenuState": "TitleState",
     "developerMode": true,
     "scriptsHotReloading": true

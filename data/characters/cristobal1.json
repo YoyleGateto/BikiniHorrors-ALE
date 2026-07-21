@@ -1,0 +1,89 @@
+{
+	"healthbar_colors": [
+		205,
+		205,
+		205
+	],
+	"position": [
+		100,
+		275
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		60,
+		0
+	],
+	"image": "characters/sirope/bob1full",
+	"sing_duration": 4,
+	"healthicon": "crisbobicon1",
+	"flip_x": false,
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-21,
+				40
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				28,
+				-1
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-10,
+				-8
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				16,
+				-92
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				155,
+				40
+			],
+			"loop": false,
+			"anim": "transform",
+			"fps": 24,
+			"name": "transformation",
+			"indices": []
+		}
+	]
+}

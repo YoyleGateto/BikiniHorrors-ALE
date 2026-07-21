@@ -1,0 +1,133 @@
+{
+	"healthbar_colors": [
+		65,
+		160,
+		255
+	],
+	"position": [
+		0,
+		0
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		-647,
+		-171
+	],
+	"image": "characters/sirope/voidisaac1",
+	"sing_duration": "6.1",
+	"healthicon": "isaacicon1",
+	"flip_x": true,
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				3,
+				1
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				9,
+				0
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-4,
+				4
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				6,
+				2
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				5,
+				4
+			],
+			"loop": false,
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "ANGRYright",
+			"indices": []
+		},
+		{
+			"offsets": [
+				10,
+				0
+			],
+			"loop": false,
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "ANGRYleft",
+			"indices": []
+		},
+		{
+			"offsets": [
+				5,
+				-1
+			],
+			"loop": false,
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "ANGRYdown",
+			"indices": []
+		},
+		{
+			"offsets": [
+				4,
+				0
+			],
+			"loop": false,
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "ANGRYup",
+			"indices": []
+		},
+		{
+			"offsets": [
+				166,
+				-6
+			],
+			"loop": false,
+			"anim": "scared",
+			"fps": 24,
+			"name": "isaacsusto",
+			"indices": []
+		}
+	]
+}

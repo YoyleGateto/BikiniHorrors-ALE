@@ -1,0 +1,632 @@
+{
+	"spritesConfig": {
+		"sprites": [
+			{
+				"images": [
+					"pixel/basement_pixel"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"antialiasing": false,
+					"x": -1910,
+					"y": 1219,
+					"scale": {
+						"x": 2,
+						"y": 2
+					},
+					"alpha": 0.01
+				},
+				"animations": [],
+				"id": "pixelBasement"
+			},
+			{
+				"images": [
+					"pixel/fondo_evil"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0.001,
+					"scale": {
+						"x": 4,
+						"y": 4
+					},
+					"x": -1670,
+					"y": 1374
+				},
+				"animations": [],
+				"id": "pixelEvil"
+			},
+			{
+				"images": [
+					"transitionBG"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0.001,
+					"scale": {
+						"x": 2.75,
+						"y": 2.75
+					},
+					"x": 613,
+					"y": -31
+				},
+				"animations": [],
+				"id": "transitionBG"
+			},
+			{
+				"images": [
+					"pov/POV_BG"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0.001,
+					"scale": {
+						"x": 1.5,
+						"y": 1.5
+					},
+					"x": 113,
+					"y": -1844
+				},
+				"animations": [],
+				"id": "povBg"
+			},
+			{
+				"images": [
+					"basement1_1"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"x": 0,
+					"y": 0
+				},
+				"animations": [],
+				"id": "bg_basement"
+			},
+			{
+				"images": [
+					"basementglitch_1"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0,
+					"x": 0,
+					"y": 0
+				},
+				"animations": [],
+				"id": "bg_glitch"
+			},
+			{
+				"images": [
+					"downpour/downpourfloor"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0.001,
+					"x": 0,
+					"y": 0
+				},
+				"animations": [],
+				"id": "downpourFloor"
+			},
+			{
+				"images": [
+					"downpour/reflection"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 1,
+					"scale": {
+						"x": 2,
+						"y": 2
+					},
+					"x": 1356,
+					"y": 961
+				},
+				"animations": [],
+				"id": "reflection"
+			},
+			{
+				"images": [
+					"downpour/ripple"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 1,
+					"scale": {
+						"x": 2,
+						"y": 2
+					},
+					"x": 1342,
+					"y": 954
+				},
+				"animations": [],
+				"id": "ripple"
+			},
+			{
+				"images": [
+					"downpour/downpourwalls"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0.01,
+					"x": 0,
+					"y": 0
+				},
+				"animations": [],
+				"id": "downpourWalls"
+			},
+			{
+				"images": [
+					"flowerglitch"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0,
+					"x": 0,
+					"y": 0
+				},
+				"animations": [],
+				"id": "flowersglitch"
+			},
+			{
+				"images": [
+					"downpour/flowers_downpour"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0.01,
+					"x": 0,
+					"y": 0
+				},
+				"animations": [],
+				"id": "flowersDownpour"
+			},
+			{
+				"images": [
+					"downpour/rain_impact"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 1,
+					"scale": {
+						"x": 2,
+						"y": 2
+					},
+					"x": 1137,
+					"y": 940
+				},
+				"animations": [],
+				"id": "rainImpact"
+			},
+			{
+				"images": [
+					"MOSKA"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"scrollFactor": {
+						"x": 1.05
+					},
+					"scale": {
+						"x": 0.4,
+						"y": 0.4
+					},
+					"x": 32,
+					"y": 509
+				},
+				"animations": [],
+				"id": "fly"
+			},
+			{
+				"width": 1280,
+				"type": "box",
+				"addMethod": "add",
+				"height": 720,
+				"properties": {
+					"alpha": 0,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0
+					},
+					"x": 0,
+					"y": 0
+				},
+				"animations": [],
+				"id": "redTint"
+			},
+			{
+				"images": [
+					"basement1_2"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"scrollFactor": {
+						"x": 1.25
+					},
+					"x": 0,
+					"y": 0,
+					"alpha": 0.4,
+					"scale": {
+						"x": 1.5
+					}
+				},
+				"animations": [],
+				"id": "light"
+			},
+			{
+				"images": [
+					"basementglitch_2"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"scrollFactor": {
+						"x": 1.25
+					},
+					"x": 0,
+					"y": 0,
+					"alpha": 0,
+					"scale": {
+						"x": 1.5
+					}
+				},
+				"animations": [],
+				"id": "lightGlitch"
+			},
+			{
+				"images": [
+					"basement1_3"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"scrollFactor": {
+						"x": 1.5
+					},
+					"x": 200,
+					"y": 0
+				},
+				"animations": [],
+				"id": "front"
+			},
+			{
+				"images": [
+					"basementglitch_3"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0.001,
+					"scrollFactor": {
+						"x": 1.5
+					},
+					"x": 200,
+					"y": 0
+				},
+				"animations": [],
+				"id": "front_glitch"
+			},
+			{
+				"images": [
+					"downpour/rain1"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 1,
+					"scale": {
+						"x": 2,
+						"y": 2
+					},
+					"x": 1358,
+					"y": 944
+				},
+				"animations": [],
+				"id": "rain1"
+			},
+			{
+				"images": [
+					"downpour/rain2"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 1,
+					"scale": {
+						"x": 2,
+						"y": 2
+					},
+					"x": 1343,
+					"y": 931
+				},
+				"animations": [],
+				"id": "rain2"
+			},
+			{
+				"images": [
+					"downpour/downpourskyglow"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0.001,
+					"scrollFactor": {
+						"x": 1.25
+					},
+					"x": 142,
+					"y": 0
+				},
+				"animations": [],
+				"id": "downpourLight"
+			},
+			{
+				"images": [
+					"downpour/downpourcolumn"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0.001,
+					"scrollFactor": {
+						"x": 1.5
+					},
+					"x": 400,
+					"y": 0
+				},
+				"animations": [],
+				"id": "downpourColumn"
+			},
+			{
+				"images": [
+					"pov/povcolumnaizq"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0.005,
+					"x": 135,
+					"y": -2500
+				},
+				"animations": [],
+				"id": "columnaIzq1"
+			},
+			{
+				"images": [
+					"pov/povcolumnaizq"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0.005,
+					"x": 135,
+					"y": -2500
+				},
+				"animations": [],
+				"id": "columnaIzq2"
+			},
+			{
+				"images": [
+					"pov/povcolumnader"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0.001,
+					"x": 1760,
+					"y": -2500
+				},
+				"animations": [],
+				"id": "columnaDer1"
+			},
+			{
+				"images": [
+					"pov/povcolumnader"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0.001,
+					"x": 1760,
+					"y": -2500
+				},
+				"animations": [],
+				"id": "columnaDer2"
+			},
+			{
+				"images": [
+					"pixel/flechasaviso"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"antialiasing": false,
+					"scale": {
+						"x": 4,
+						"y": 4
+					},
+					"x": -1295,
+					"y": 1262
+				},
+				"animations": [],
+				"id": "arrowsWarning"
+			},
+			{
+				"images": [
+					"sad/voidbg"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0,
+					"scale": {
+						"x": 3,
+						"y": 3
+					},
+					"x": -2932,
+					"y": 2831
+				},
+				"animations": [],
+				"id": "voidBg"
+			},
+			{
+				"images": [
+					"sad/personajesfondovoid"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0.001,
+					"x": -3403,
+					"y": 3657
+				},
+				"animations": [],
+				"id": "tijuana"
+			},
+			{
+				"images": [
+					"sad/shadowvoid"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0,
+					"x": -2149,
+					"y": 4782
+				},
+				"animations": [],
+				"id": "isaacShadow"
+			},
+			{
+				"images": [
+					"sad/shadowvoid"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0,
+					"scale": {
+						"x": 0.8,
+						"y": 0.8
+					},
+					"x": -630,
+					"y": 4783
+				},
+				"animations": [],
+				"id": "meatboyShadow"
+			},
+			{
+				"images": [
+					"sad/shadowvoid"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"alpha": 0,
+					"scale": {
+						"x": 0.8,
+						"y": 0.8
+					},
+					"x": -3643,
+					"y": 4760
+				},
+				"animations": [],
+				"id": "castleShadow"
+			},
+			{
+				"images": [
+					"sad/voidplumas"
+				],
+				"type": "atlas",
+				"addMethod": "add",
+				"properties": {
+					"x": -2578,
+					"y": 4073
+				},
+				"animations": [
+					{
+						"offsets": [
+							0,
+							0
+						],
+						"loop": false,
+						"fps": 24,
+						"prefix": "plumas",
+						"name": "feathers",
+						"indices": []
+					}
+				],
+				"id": "feathers"
+			},
+			{
+				"images": [
+					"pillars/bg"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"scale": {
+						"x": 0.7,
+						"y": 0.7
+					},
+					"x": 7087,
+					"y": -611
+				},
+				"animations": [],
+				"id": "steamBg"
+			},
+			{
+				"images": [
+					"pillars/columna"
+				],
+				"type": "image",
+				"addMethod": "add",
+				"properties": {
+					"scale": {
+						"x": 4.25,
+						"y": 4.25
+					},
+					"x": 8280,
+					"y": 63
+				},
+				"animations": [],
+				"id": "pillars"
+			}
+		],
+		"directory": "basement"
+	},
+	"charactersOffset": {
+		"type": {
+			"extra": {
+				"x": 500,
+				"y": 300
+			},
+			"player": {
+				"x": 2363,
+				"y": 1040
+			},
+			"opponent": {
+				"x": 866,
+				"y": 30
+			}
+		}
+	},
+	"format": "ale-stage-v0.1",
+	"hud": "default",
+	"zoom": 0.45,
+	"speed": 1
+}

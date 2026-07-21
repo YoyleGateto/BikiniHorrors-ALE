@@ -1,0 +1,78 @@
+{
+	"healthbar_colors": [
+		65,
+		160,
+		255
+	],
+	"position": [
+		0,
+		0
+	],
+	"no_antialiasing": true,
+	"scale": 1,
+	"camera_position": [
+		-647,
+		-171
+	],
+	"image": "characters/sirope/galaga",
+	"sing_duration": "6.1",
+	"healthicon": "isaacicon1",
+	"flip_x": false,
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-30
+			],
+			"loop": true,
+			"anim": "idle",
+			"fps": 24,
+			"name": "galagaidle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				130
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "galaga up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				105,
+				-29
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "galagaleft",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-47,
+				-32
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "galagaright",
+			"indices": []
+		},
+		{
+			"offsets": [
+				2,
+				-95
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "galagadown",
+			"indices": []
+		}
+	]
+}

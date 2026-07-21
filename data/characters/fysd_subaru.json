@@ -1,0 +1,56 @@
+{
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"position": [
+		4350,
+		-280
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		0,
+		0
+	],
+	"image": "characters/fysd/fysd_subaru",
+	"sing_duration": "6.1",
+	"healthicon": "icon-fysd",
+	"flip_x": false,
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-1
+			],
+			"loop": true,
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				20.3,
+				-1.5
+			],
+			"loop": false,
+			"anim": "free",
+			"fps": 24,
+			"name": "wings",
+			"indices": []
+		},
+		{
+			"offsets": [
+				20.3,
+				-1.5
+			],
+			"loop": true,
+			"anim": "para_cojones",
+			"fps": 24,
+			"name": "caca",
+			"indices": []
+		}
+	]
+}

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="transitionBG.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FONDOPOV0000" x="10" y="10" width="1924" height="1080"/>
+	<SubTexture name="FONDOPOV0001" x="1944" y="10" width="1924" height="1080"/>
+</TextureAtlas>

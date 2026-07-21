@@ -1,0 +1,34 @@
+{
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"position": [
+		-50,
+		-1070
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		-450,
+		-230
+	],
+	"image": "characters/fysd/fysd_phase_3",
+	"sing_duration": "6.1",
+	"healthicon": "icon-fysd",
+	"flip_x": true,
+	"animations": [
+		{
+			"offsets": [
+				-700,
+				0
+			],
+			"loop": true,
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		}
+	]
+}

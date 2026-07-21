@@ -1,0 +1,78 @@
+{
+	"healthbar_colors": [
+		205,
+		205,
+		205
+	],
+	"position": [
+		0,
+		0
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		354,
+		150
+	],
+	"image": "characters/sirope/finalformcrisbobal1",
+	"sing_duration": 4,
+	"healthicon": "crisbobicon2",
+	"flip_x": false,
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"anim": "idle",
+			"fps": 24,
+			"name": "bobidle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-12,
+				3
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "bobup",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-17,
+				-1
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "bobleft",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-64,
+				-2
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "bobright",
+			"indices": []
+		},
+		{
+			"offsets": [
+				1,
+				-1
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "bobdown",
+			"indices": []
+		}
+	]
+}

@@ -22,20 +22,7 @@ var spaceSpeed = 5000;
 var spaceLayers = [];
 var spaceLoopOffset:Float = -2000;
 
-//for (char in ["mermaidbobgrandote", "sorpresa", "enfado", "bf_fleetway", "bubblemangrandoote", "peleota"]) cacheCharacter(char);
-
-/*function new() {
-	var texto = "";
-	for (spr in Paths.json("data/stages/bob_cave").spritesConfig.sprites) {
-		texto += spr.id + " = stage.get(\"" + spr.id + "\");\n";
-	}
-	File.saveContent("texto.hx", texto);
-}*/
-/*
-	ENG: me was laziness to port me game stage things to he engine
-	ESP: dio pereza de hacerlo manual asi qe lo automatice
-	- Phanes
-*/
+for (char in ["mermaidbobgrandote", "sorpresa", "enfado", "bf_fleetway", "bubblemangrandoote", "peleota"]) cacheCharacter(char);
 
 function postCreate() {
 	cave = stage.get("cave");

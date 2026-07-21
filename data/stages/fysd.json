@@ -1,0 +1,273 @@
+{
+	"spritesConfig": {
+		"sprites": [
+			{
+				"images": [
+					"jellyfield"
+				],
+				"type": "image",
+				"properties": {
+					"x": -730,
+					"y": -174
+				},
+				"animations": [],
+				"id": "jellyfield"
+			},
+			{
+				"images": [
+					"bedrom"
+				],
+				"type": "image",
+				"properties": {
+					"x": -3500,
+					"y": -400
+				},
+				"animations": [],
+				"id": "bedrom"
+			},
+			{
+				"images": [
+					"citi"
+				],
+				"type": "image",
+				"properties": {
+					"x": -3983,
+					"y": 1632
+				},
+				"animations": [],
+				"id": "citi"
+			},
+			{
+				"images": [
+					"fb_1"
+				],
+				"type": "image",
+				"properties": {
+					"x": -180,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0
+					},
+					"y": -80,
+					"scale": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"alpha": 0
+				},
+				"animations": [],
+				"id": "fb_1"
+			},
+			{
+				"images": [
+					"fb_2"
+				],
+				"type": "image",
+				"properties": {
+					"x": -150,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0
+					},
+					"y": -50,
+					"scale": {
+						"x": 0.6,
+						"y": 0.6
+					},
+					"alpha": 0
+				},
+				"animations": [],
+				"id": "fb_2"
+			},
+			{
+				"images": [
+					"fb_3"
+				],
+				"type": "image",
+				"properties": {
+					"x": -180,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0
+					},
+					"y": 0,
+					"scale": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"alpha": 0
+				},
+				"animations": [],
+				"id": "fb_3"
+			},
+			{
+				"images": [
+					"fb_4"
+				],
+				"type": "image",
+				"properties": {
+					"x": -180,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0
+					},
+					"y": 20,
+					"scale": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"alpha": 0
+				},
+				"animations": [],
+				"id": "fb_4"
+			},
+			{
+				"images": [
+					"fb_5"
+				],
+				"type": "image",
+				"properties": {
+					"x": 0,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0
+					},
+					"y": 0,
+					"scale": {
+						"x": 0.6,
+						"y": 0.6
+					},
+					"alpha": 0
+				},
+				"animations": [],
+				"id": "fb_5"
+			},
+			{
+				"images": [
+					"fb_6"
+				],
+				"type": "image",
+				"properties": {
+					"x": -220,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0
+					},
+					"y": -130,
+					"scale": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"alpha": 0
+				},
+				"animations": [],
+				"id": "fb_6"
+			},
+			{
+				"images": [
+					"fb_7"
+				],
+				"type": "image",
+				"properties": {
+					"x": -120,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0
+					},
+					"y": -180,
+					"scale": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"alpha": 0
+				},
+				"animations": [],
+				"id": "fb_7"
+			},
+			{
+				"images": [
+					"fb_8"
+				],
+				"type": "image",
+				"properties": {
+					"x": 70,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0
+					},
+					"y": -150,
+					"scale": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"alpha": 0
+				},
+				"animations": [],
+				"id": "fb_8"
+			},
+			{
+				"images": [
+					"fb_9"
+				],
+				"type": "image",
+				"properties": {
+					"x": -480,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0
+					},
+					"y": -380,
+					"scale": {
+						"x": 0.7,
+						"y": 0.7
+					},
+					"alpha": 0
+				},
+				"animations": [],
+				"id": "fb_9"
+			},
+			{
+				"images": [
+					"desmotivacion"
+				],
+				"type": "image",
+				"properties": {
+					"x": 20,
+					"scrollFactor": {
+						"x": 0,
+						"y": 0
+					},
+					"y": 0,
+					"scale": {
+						"x": 1.3,
+						"y": 1.3
+					},
+					"alpha": 0
+				},
+				"animations": [],
+				"id": "desmotivacion"
+			}
+		],
+		"directory": "fysd"
+	},
+	"charactersOffset": {
+		"type": {
+			"extra": {
+				"x": 611,
+				"y": 2250
+			},
+			"opponent": {
+				"x": -3331,
+				"y": 2614
+			},
+			"player": {
+				"x": 180,
+				"y": 415
+			}
+		}
+	},
+	"hud": "default",
+	"format": "ale-stage-v0.1",
+	"speed": 1,
+	"zoom": 0.9
+}

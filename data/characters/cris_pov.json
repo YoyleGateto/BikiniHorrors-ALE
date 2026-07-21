@@ -1,0 +1,78 @@
+{
+	"healthbar_colors": [
+		205,
+		205,
+		205
+	],
+	"position": [
+		100,
+		305
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		60,
+		70
+	],
+	"image": "characters/sirope/crisbob3POV",
+	"sing_duration": 4,
+	"healthicon": "crisbobicon2",
+	"flip_x": false,
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"anim": "idle",
+			"fps": 24,
+			"name": "IDLE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-11,
+				185
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				59,
+				34
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-299,
+				-56
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				21,
+				-137
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		}
+	]
+}

@@ -49,7 +49,6 @@ class Formatter {
 					animations: [],
 					addMethod: "add"//"
 				}
-				debugTrace(obj);
 				switch(obj.nodeName) {
 					case "sprite":
 						objData.id = obj.exists("name") ? obj.get("name") : ("obj_" + Std.string(index));

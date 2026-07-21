@@ -1,0 +1,34 @@
+{
+	"healthbar_colors": [
+		205,
+		205,
+		205
+	],
+	"position": [
+		-200,
+		0
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		60,
+		70
+	],
+	"image": "characters/sirope/crisbob2-3trans",
+	"sing_duration": 4,
+	"healthicon": "crisbobicon2",
+	"flip_x": false,
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "transform",
+			"fps": 24,
+			"name": "transformacion",
+			"indices": []
+		}
+	]
+}
